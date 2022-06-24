@@ -1,8 +1,6 @@
 const firstNum = parseFloat(prompt ('Input the first number: '));  
-const secondNum = parseFloat(prompt ('Input the second number: '));  
-
 const calculate = prompt('Enter +, -, * or / : ');
-
+const secondNum = parseFloat(prompt ('Input the second number: '));  
 if (calculate == '+') {
     result = firstNum + secondNum;  
 }
